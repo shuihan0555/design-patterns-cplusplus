@@ -1,18 +1,18 @@
 # 1 Introdution
-In this article, we will see an example of the __S__ingle __R__esponsibility __P__rinciple in Cplusplus along with its benefits & generic guideline:
+In this article, we will see an example of the __S__ ingle __R__ esponsibility __P__ rinciple in Cplusplus along with its benefits & generic guideline:
 
-* [x] __S__RP - Single Responsibility Principle 
-* [ ] __O__CP - Open/Closed Principle 
-* [ ] __L__SP - Liskov Substitution Principle 
-* [ ] __I__Sp - Interface Segregation Principle 
-* [ ] __D__IP - Dependency Inversion Principle  
+* [x] __S__ RP - Single Responsibility Principle 
+* [ ] __O__ CP - Open/Closed Principle 
+* [ ] __L__ SP - Liskov Substitution Principle 
+* [ ] __I__ Sp - Interface Segregation Principle 
+* [ ] __D__ IP - Dependency Inversion Principle  
 
 # 2. Single Responsibility Principle
 __A class should have only one reason to change__. 
 
 # 3 Motivation: Violating the Single Responsibility Principle (Bad example)
 
-```cplusplus
+```cpp
 class Journal 
 {
 	string m_title;
@@ -60,7 +60,7 @@ int main(int ac, char* av[])
 
 # 4 Solution: Single Responsibility Principle Example in cplusplus 
 
-```cplusplus
+```cpp
 class Journal 
 {
 	string m_title;
