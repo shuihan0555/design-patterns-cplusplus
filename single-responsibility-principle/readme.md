@@ -1,3 +1,5 @@
+[TOC]
+
 # 1 Introdution
 In this article, we will see an example of the __S__ ingle __R__ esponsibility __P__ rinciple in Cplusplus along with its benefits & generic guideline:
 
